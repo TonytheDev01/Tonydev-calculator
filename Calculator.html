@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tonydev Calculator</title>
+  <link rel="stylesheet" href="style1.css" />
+  <script src="script1.js" defer></script>
+</head>
+<body>
+  <main class="calc-wrap">
+    <div class="calculator" aria-label="Calculator">
+
+       <div class="calc-brand">Tonydev</div>
+      <!-- Display -->
+      <input
+        type="text"
+        class="calc-display"
+        id="display"
+        value="0"
+        readonly
+        aria-live="polite"
+      />
+
+      <!-- Keypad -->
+      <div class="calc-keypad">
+        <button class="key key-func" data-key="AC" aria-label="All Clear">AC</button>
+        <button class="key key-func" data-key="DEL" aria-label="Delete">DEL</button>
+        <button class="key key-func" data-key="%" aria-label="Percent">%</button>
+        <button class="key key-op"   data-key="/" aria-label="Divide">÷</button>
+
+        <button class="key" data-key="7">7</button>
+        <button class="key" data-key="8">8</button>
+        <button class="key" data-key="9">9</button>
+        <button class="key key-op" data-key="*" aria-label="Multiply">×</button>
+
+        <button class="key" data-key="4">4</button>
+        <button class="key" data-key="5">5</button>
+        <button class="key" data-key="6">6</button>
+        <button class="key key-op" data-key="-" aria-label="Minus">−</button>
+
+        <button class="key" data-key="1">1</button>
+        <button class="key" data-key="2">2</button>
+        <button class="key" data-key="3">3</button>
+        <button class="key key-op" data-key="+" aria-label="Plus">+</button>
+
+        <button class="key key-zero" data-key="0">0</button>
+        <button class="key" data-key="." aria-label="Decimal">.</button>
+        <button class="key key-equals" data-key="=" aria-label="Equals">=</button>
+        <div class="name">Tonydev cal</div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
